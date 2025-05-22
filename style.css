@@ -3,3 +3,46 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+header nav a{
+  background-color: gray;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+  display: inline-block;
+  margin: 2px;
+}
+
+header nav a.about-link {
+ /* background-color: black;*/
+  color: #000; /* Optional: for contrast */
+}
+
+#featured-property img{
+  display: block;
+  margin: auto;
+}
+
+#featured-property figcaption{
+  text-align: center;
+  font-size: 100%;
+}
+
+#featured-property p{
+  text-align: center;
+  width: 800px;
+  margin: auto;
+  margin-bottom: 1em;
+}
+
+#details div{
+  float: left;
+  text-align: center;
+  width: 25%;
+  background-color: red;
+}
+
